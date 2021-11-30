@@ -1,0 +1,82 @@
+/** @format */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: indianred;
+}
+
+main {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background:white;
+  position: absolute;
+  max-width: 600px;
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 300px;
+  border-radius: 10px;
+}
+/* logo div styling */
+.logo{
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+.logo img{
+    height: 80px;
+}
+.logo p{
+    font-weight: bold;
+    margin-top: 6px;
+}
+/* end of styling  logo div */
+
+/* styling of input div */
+.input{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+}
+.inputz{
+    margin-top:20px;
+    display:flex;
+    align-items: center;
+    border: 1px solid lightgrey;
+    height:30px;
+    padding:4px;
+}
+.input h3{
+    color: indianred;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+    width:100%;
+}
+.inputz input{
+    outline: none;
+    border:none;
+    font-size: 16px;
+    height:100%;
+    margin-left: 5px;
+}
+.inputz i{
+    color:grey;
+    margin-right: 10px;
+}
+.input button{
+    background:indianred;
+    color:white;
+    outline:none;
+    border:none;
+    cursor: pointer;
+    height:33px;
+    width:100%;
+    margin-top: 20px;
+    border-radius: 3px;
+    font-size: 18px;
+}
